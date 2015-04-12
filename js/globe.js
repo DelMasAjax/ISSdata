@@ -3,7 +3,7 @@ ORBITAL.Globe = function($container, opts) {
     opts = opts || {};
 
     opts.scale = opts.scale || 2;
-    opts.worldImage = opts.worldImage || 'world-1.jpg';
+    opts.worldImage = opts.worldImage || 'img/worlds/world-1.jpg';
 
     self.hslList = [
         _.clone(new THREE.Color("#FF0900").getHSL()), //#FF2E46 is on 'wrong side of hsl'
