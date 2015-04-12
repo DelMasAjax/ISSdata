@@ -32,7 +32,7 @@
                     <h1 class="titulo1">Mapas 2D</h1>                    
                 </div> -->
                 <div id="cuerpo2Col2" class="cuerpo2Col">
-                    <a href="mapas3d.php"><img src="img/mapa3d.jpg" alt="mapas 3D" height="200px"/></a>
+                    <a href="mapas3d.php"><img src="img/mapa3d.JPG" alt="mapas 3D" height="200px"/></a>
                     <h1 class="titulo1">Mapas 3D</h1>
                 </div>
                 <!-- <div id="cuerpo2Col3" class="cuerpo2Col">
