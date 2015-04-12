@@ -34,13 +34,15 @@ a{
 }
 .cuerpo2Col{
     width: 42%;
-    float: left;
+    /*float: left;*/
     padding: 20px 20px;
     background: #AEB1B2;
     font-size: 13px;
     min-height: 280px;
     text-align: center;
+    margin:auto;
 }
+
 #pie a{
     color: white;
 }
