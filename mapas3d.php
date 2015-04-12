@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<title>PÃ¡gina proyecto delMasAjax</title>
+<title>Página proyecto delMasAjax</title>
 <meta charset="utf-8">
 <link href="css/globe.css" rel="stylesheet">
 <meta http-equiv="refresh" content="300">
@@ -12,9 +12,31 @@
 		<div class="author">
 			<table>
 				<tr>
+					<td>Latitude</td>
+					<td id="latitude" style="text-align: right;"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Longitude</td>
+					<td id="longitude" style="text-align: right;"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Altitude</td>
+					<td id="altitude" style="text-align: right;"></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Velocity</td>
+					<td id="velocity" style="text-align: right;"></td>
+					<td></td>
+				</tr>
+			</table>
+			<table>
+				<tr>
 					<th></th>
-					<th>Position(km)</th>
-					<th>Velocity(m/s)</th>
+					<th>Position (km)</th>
+					<th>Velocity (m/s)</th>
 				</tr>
 				<tr>
 					<td>X</td>
@@ -82,6 +104,10 @@
 	            var data = JSON.parse(xhr.responseText);
 		    console.log(data);
 	            globe.addPoint(data.latitude, data.longitude,data.altitude/400);
+				$("#longitude").html(data.longitude + ' º');
+				$("#latitude").html(data.latitude + " º");
+				$("#altitude").html(data.altitude + " km");
+				$("#velocity").html(data.velocity + " km/h");
 	          }
 	        }
 	      };
