@@ -16,7 +16,7 @@
                         <li><a href="index.php">Inicio</a></li>
                         <!-- <li><a href="mapas2d.php">Mapas 2D</a></li> -->
                         <li><a href="mapas3d.php">Mapas 3D</a></li>                            
-                        <li><a href="estadistica.php">Información ISS</a></li>                                                                        
+                        <!-- <li><a href="estadistica.php">Informacion ISS</a></li> -->                                                                        
                     </ul>
                 </div>
             </div>
@@ -35,10 +35,10 @@
                     <a href="mapas3d.php"><img src="img/mapa3d.jpg" alt="mapas 3D" height="200px"/></a>
                     <h1 class="titulo1">Mapas 3D</h1>
                 </div>
-                <div id="cuerpo2Col3" class="cuerpo2Col">
+                <!-- <div id="cuerpo2Col3" class="cuerpo2Col">
                    <a href="estadistica.php"><img src="img/grafica.jpg" alt="gráficas estadística" height="200px"/></a>
                     <h1 class="titulo1">Información ISS</h1>
-                </div>
+                </div> -->
             </div>
             <div id="pie">
                 <p>Página web del proyecto de delMasAjax</p>

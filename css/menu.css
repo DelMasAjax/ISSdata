@@ -50,7 +50,8 @@
   float: left;
   display: block;
   border-right: 1px solid rgba(0, 0, 0, 0.22);
-  z-index: 1;
+  z-index: 1;  
+  width: 150px;
 }
 #cssmenu ul li::after {
   content: "";
@@ -71,6 +72,7 @@
   display: block;
   padding: 10px 30px;
   text-decoration: none;
+  text-align: center;
   font-size: 12px;
   text-transform: uppercase;
   color: #ffffff;
