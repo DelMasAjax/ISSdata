@@ -20,7 +20,7 @@
                 </div>
               </div>
               <div id="datos">
-              	
+		{{ speed }}              	
               </div>
         </div>
         <div id="pie">
